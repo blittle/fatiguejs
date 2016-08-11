@@ -9,5 +9,6 @@ Simply add the following code to the main entry point of your app:
 
 ```js
 import fixMe from 'fatiguejs';
-fixme();
+
+fixMe();
 ```
