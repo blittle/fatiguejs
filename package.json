@@ -4,8 +4,8 @@
   "description": "Fatigue.js fixes your confusing nest of build tools, boilerplate, linters, & time-sinks.",
   "main": "dist/fatiguer.js",
   "scripts": {
-    "test": "jspmjasmine --coverage --coverage-files 'src/**/*.js'",
-		"build": "jspm build src/fatiguer.js dist/fatiguer.js"
+    "test": "jspmjasmine --coverage --coverage-reporter json --coverage-files 'src/**/*.js'",
+    "build": "jspm build src/fatiguer.js dist/fatiguer.js"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
   "devDependencies": {
     "jasmine": "^2.4.1",
     "jspm": "^0.17.0-beta.25",
-    "node-jspm-jasmine": "^2.4.4"
+    "node-jspm-jasmine": "^2.4.5"
   },
   "jspm": {
     "name": "fatiguejs",
@@ -32,5 +32,7 @@
       "plugin-babel": "npm:systemjs-plugin-babel@^0.0.13"
     }
   },
-	"files": ["dist"]
+  "files": [
+    "dist"
+  ]
 }
