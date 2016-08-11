@@ -1,5 +1,5 @@
 # fatiguejs
-Fatigue.js fixes your confusing nest of build tools, boilerplate, linters, &amp; time-sinks.
+Fatigue.js fixes your confusing nest of build tools, boilerplate, linters, &amp; time-sinks. Inspired by https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4
 
 [![npm version](https://img.shields.io/npm/v/fatiguejs.svg?style=flat-square)](https://www.npmjs.org/package/fatiguejs)
 [![Build Status](https://img.shields.io/travis/blittle/fatiguejs.svg?style=flat-square)](https://travis-ci.org/blittle/fatiguejs)
