@@ -1,0 +1,35 @@
+{
+  "name": "fatiguejs",
+  "version": "1.0.0",
+  "description": "Fatigue.js fixes your confusing nest of build tools, boilerplate, linters, & time-sinks.",
+  "main": "fatiguer.js",
+  "scripts": {
+    "test": "jspmjasmine --coverage --coverage-files 'src/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blittle/fatiguejs.git"
+  },
+  "keywords": [
+    "fatigue"
+  ],
+  "author": "Bret Little",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blittle/fatiguejs/issues"
+  },
+  "homepage": "https://github.com/blittle/fatiguejs#readme",
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "jspm": "^0.17.0-beta.25",
+    "node-jspm-jasmine": "^2.4.4"
+  },
+  "jspm": {
+    "name": "fatiguejs",
+    "main": "fatiguejs.js",
+    "devDependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.13"
+    }
+  },
+	"files": ["dist"]
+}
