@@ -2,7 +2,7 @@
   "name": "fatiguejs",
   "version": "1.0.0",
   "description": "Fatigue.js fixes your confusing nest of build tools, boilerplate, linters, & time-sinks.",
-  "main": "fatiguer.js",
+  "main": "dist/fatiguer.js",
   "scripts": {
     "test": "jspmjasmine --coverage --coverage-files 'src/**/*.js'"
   },
