@@ -3,6 +3,7 @@ node_js:
       - "5.3.0"
 before_script:
       - npm install
+      - ./node_modules/jspm/jspm.js install
       - npm install -g codecov
       - npm run build
 script:
