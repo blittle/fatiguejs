@@ -5,8 +5,7 @@
   "main": "dist/fatiguer.js",
   "scripts": {
     "test": "jspmjasmine --coverage --coverage-files 'src/**/*.js'",
-		"build": "jspm build src/fatiguer.js dist/fatiguer.js",
-		"prepublish": "npm run test && npm run build"
+		"build": "jspm build src/fatiguer.js dist/fatiguer.js"
   },
   "repository": {
     "type": "git",
