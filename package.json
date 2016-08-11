@@ -1,6 +1,6 @@
 {
   "name": "fatiguejs",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Fatigue.js fixes your confusing nest of build tools, boilerplate, linters, & time-sinks.",
   "main": "dist/fatiguer.js",
   "scripts": {
