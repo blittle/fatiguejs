@@ -20,3 +20,10 @@ import fixMe from 'fatiguejs';
 
 fixMe();
 ```
+
+### sofe
+Fatigue.js is conveniently a [sofe service](https://github.com/CanopyTax/sofe):
+
+```js
+System.import('fatiguejs!sofe').then(fatigue => fatigue.default());
+```
